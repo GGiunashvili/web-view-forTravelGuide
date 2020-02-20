@@ -223,7 +223,6 @@ a {
 }
 
 .carousel-indicators li {
-    opacity: 1;
     border-top: 0px solid transparent;
     border-bottom: 2px solid transparent;
 }
