@@ -38,6 +38,7 @@ a {
     height: 50px;
     width: 50px;
     border-radius: 50%;
+    margin-top: 10px;
 }
 
 .rating {
@@ -52,7 +53,9 @@ a {
 }
 
 .for-star-size {
-    font-size: 30px;
+    font-size: 25px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
 
 .rating>label:before {
@@ -156,6 +159,7 @@ a {
     display: flex;
     align-items: center;
     margin-top: 30px;
+    margin-bottom: 40px;
 }
 
 .dropdown-icon {
@@ -168,11 +172,14 @@ a {
 }
 
 .availability {
-    padding: 20px;
-    text-align: center;
+    padding: 15px;
     border: 2px solid #ffbf00;
-    margin: 20px;
+    width: 245px;
     border-radius: 15px;
+    color: #ffbf00;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    text-align: center;
 }
 
 #info-block-zero section {
@@ -239,16 +246,21 @@ li {
 
 .review-comment {
     color: grey;
+    margin-top: 10px;
+    line-height: 1.4em;
 }
 
 .for-color {
     color: grey;
     font-weight: bold;
     white-space: nowrap;
+    font-style: italic;
 }
 
 .for-rewiev-date {
     color: grey;
+    margin-top: 10px;
+    font-size: 14px;
 }
 
 .like-button {
@@ -278,6 +290,7 @@ li {
     text-align: center;
     position: absolute;
     right: 5%;
+    margin-top: 5px;
 }
 
 @media only screen and (max-width: 300px) {
