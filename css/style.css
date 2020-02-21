@@ -240,6 +240,7 @@ li {
 .for-color {
     color: grey;
     font-weight: bold;
+    white-space: nowrap;
 }
 
 .for-rewiev-date {
@@ -267,6 +268,12 @@ li {
 .like-button:checked+svg .fil0 {
     fill: red;
     stroke: red;
+}
+
+.heartnumbers {
+    text-align: center;
+    position: absolute;
+    right: 5%;
 }
 
 @media only screen and (max-width: 300px) {

@@ -1,3 +1,4 @@
+// see more see less for reweiev
 function myFunction() {
     var dots = document.getElementById("dots");
     var moreText = document.getElementById("more");
@@ -13,6 +14,7 @@ function myFunction() {
         moreText.style.display = "inline";
     }
 }
+// 
 
 
 
@@ -37,3 +39,27 @@ $('.read-more-hide').on('click', function(e) {
     p.prev('.read-more-show').removeClass('hide'); // Hide only the preceding "Read More"
     e.preventDefault();
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+// border description see more see less 
+$('.read-less1, .hide1').hide();
+
+$('.read-more1, .read-less1').click(function() {
+    $('.read-more1, .read-less1, .hide1').toggle();
+});
+// border description see more see less
