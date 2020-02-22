@@ -293,7 +293,48 @@ li {
     margin-top: 5px;
 }
 
-@media only screen and (max-width: 300px) {
+
+/* index2.html //////////////////////////////////// */
+
+.head-background {
+    background-image: url(https://images.pexels.com/photos/1624496/pexels-photo-1624496.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500);
+    height: 200px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.tour-star-rewiev {
+    position: absolute;
+    bottom: 0;
+    color: white;
+}
+
+
+/* .first-calendar-icon {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+} */
+
+.calendar-icon {
+    border: 2px solid black;
+    border-radius: 15px;
+    width: 65px;
+    text-align: center;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+
+/* index2.html //////////////////////////////////// */
+
+*/ @media only screen and (max-width: 300px) {
     .box-title-2 {
         margin-left: 50%;
     }
