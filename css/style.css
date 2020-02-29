@@ -13,12 +13,100 @@ body {
     padding-top: 5px;
 }
 
+.arrow-bottom {
+    position: absolute;
+    z-index: 999;
+    height: 30px;
+    left: 5px;
+    margin-top: 30px;
+}
+
+.star-place {
+    text-align: right;
+    padding-right: 5px;
+    height: 60px;
+}
+
+.fonts-div {
+    font-size: 4vw;
+}
+
+.user-name {
+    font-weight: bold;
+}
+
+.for-rewiev-description {
+    padding-left: 10px;
+    text-align: justify;
+    position: relative;
+}
+
+.rewiev-main-div {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.house-div {
+    margin-right: 10px;
+}
+
+.ianachkebia-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.fisr-box {
+    position: relative;
+}
+
+.sights {
+    color: white;
+}
+
+.box-first {
+    position: relative;
+}
+
+.house-icon {
+    height: 30px;
+}
+
+.box-two {
+    margin-right: 3%;
+    margin-left: 3%;
+}
+
+.home-calendar-div {
+    display: flex;
+    text-align: center;
+    position: absolute;
+    z-index: 99;
+    bottom: 10px;
+    right: 10px;
+}
+
+.three-dots-bottom {
+    position: absolute;
+    z-index: 999;
+    height: 50px;
+    right: 0;
+    margin-top: 30px;
+}
+
 .member {
     width: 30px;
 }
 
 .xxx {
     height: 10px;
+}
+
+.hide1 {
+    display: flex;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .hide {
@@ -56,6 +144,57 @@ a {
     font-size: 25px;
     margin-top: 10px;
     margin-bottom: 10px;
+    font-size: 20px;
+    margin-right: 10px;
+}
+
+.vacant-place-child-div {
+    position: relative;
+}
+
+.modena-bottom-title {
+    font-size: 17px;
+    margin-top: 8px;
+}
+
+.total-usd {
+    font-size: 20px;
+}
+
+.next-button-div {
+    border: 2px #F79426 solid;
+    border-radius: 10px;
+}
+
+.next-button-main {
+    font-size: 20px;
+    padding: 10px 30px;
+}
+
+.total-div {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+    padding-right: 5%;
+    padding-left: 5%;
+    margin-bottom: 80px;
+    align-items: center;
+}
+
+.person-number {
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.persons-in-tour {
+    padding-left: 5%;
+    margin-top: 20px;
+}
+
+.correct-icon-main {
+    position: absolute;
+    top: 35px;
+    left: 9%;
 }
 
 .rating>label:before {
@@ -89,6 +228,49 @@ a {
 
 .tour-name {
     text-align: center;
+    margin-top: 10px;
+}
+
+.tour-manager-name {
+    display: flex;
+}
+
+.per-person {
+    display: flex;
+    align-items: center;
+}
+
+.tour-description-main-div {
+    margin-top: 20px;
+}
+
+.tour-description-main-text {
+    padding: 10px;
+    text-align: justify;
+    line-height: 1.4em;
+}
+
+.price-div {
+    text-align: center;
+    padding-left: 5px;
+}
+
+.price-range {
+    color: green;
+}
+
+.author-div {
+    font-size: 18px;
+    margin-left: 3px;
+}
+
+.price-now-div {
+    display: flex;
+    font-size: 16px;
+}
+
+.tour-name-title {
+    font-size: 25px;
 }
 
 .stars {
@@ -277,6 +459,11 @@ li {
     stroke: black;
 }
 
+.availa-div {
+    display: flex;
+    justify-content: center;
+}
+
 .fil0 {
     fill: #ffffff;
 }
@@ -309,6 +496,9 @@ li {
     position: absolute;
     bottom: 0;
     color: white;
+    position: absolute;
+    bottom: 5%;
+    left: 5%;
 }
 
 .main-calendar-date {
@@ -343,6 +533,11 @@ li {
     height: 25px;
 }
 
+.star-main-div {
+    display: flex;
+    align-items: center;
+}
+
 .paddings {
     padding-left: 26px;
     padding-right: 26px;
@@ -355,6 +550,15 @@ li {
     padding-left: 4%;
     padding-right: 4%;
     margin-top: 15px;
+}
+
+.price-now-div-index2 {
+    display: flex;
+    font-size: 16px;
+    color: white;
+    position: absolute;
+    bottom: 5%;
+    right: 5%;
 }
 
 .select-date-div {
